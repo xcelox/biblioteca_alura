@@ -1,0 +1,65 @@
+
+.banner {
+    background: var(--azul-gradiente);
+    color: var(--branco);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.5em 2em;
+
+}
+.banner__titulo {
+    font: 18px;
+    font-weight: 700;
+
+}
+.banner__texto {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 1em;
+
+}
+.banner__pesquisa {
+    border-radius: 30px;
+    border-color: var(--branco);
+    size: 14px;
+    width: 90%;
+    text-align: center;
+    padding: 1em;
+    background: transparent;
+    color: var(--branco);
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid var(--branco);
+    
+}
+
+@media screen and (min-width: 1024px) {
+
+.banner__titulo {
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.banner__pesquisa {
+    width: 30%;
+
+}}
+
+@media screen and (min-width: 1728px) {
+
+.banner {
+    padding: 6em 0;
+
+}
+.banner__pesquisa {
+    width: 38%;
+
+}
+.banner__texto {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.banner__pesquisa::placeholder {
+    background-position: 25em;
+}}
